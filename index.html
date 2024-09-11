@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária Francesa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre a Culinária Francesa</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="intro-text">
+            <h1>Culinária Francesa</h1>
+            <p>A culinária francesa é uma das mais renomadas no mundo, famosa por seus pratos sofisticados e cheios de sabor. Aqui, você encontra 9 pratos tradicionais. Clique no botão para ouvir a descrição de cada prato ou ver a imagem maior.</p>
+        </div>
+
+    <main id="menu" class="menu-container">
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2008/08/coq-au-vin-com-frango-refogado-e-legumes-780x520.jpg" alt="Coq au Vin">
+                <p>Coq au Vin</p>
+                <a href="https://www.comidaereceitas.com.br/wp-content/uploads/2008/08/coq-au-vin-com-frango-refogado-e-legumes-780x520.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://catracalivre.com.br/wp-content/uploads/2023/10/ratatouille-provencal.jpg" alt="Ratatouille">
+                <p>Ratatouille</p>
+                <a href="https://catracalivre.com.br/wp-content/uploads/2023/10/ratatouille-provencal.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://static01.nyt.com/images/2017/05/16/dining/16COOKING-BITTMAN-BOUILLABAISSE/16COOKING-BITTMAN-BOUILLABAISSE-superJumbo.jpg" alt="Bouillabaisse">
+                <p>Bouillabaisse</p>
+                <a href="https://static01.nyt.com/images/2017/05/16/dining/16COOKING-BITTMAN-BOUILLABAISSE/16COOKING-BITTMAN-BOUILLABAISSE-superJumbo.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://static.itdg.com.br/images/1200-675/0cd951a2f8cf36784b06eaf9540ce1b2/322251-original.jpg" alt="Quiche Lorraine">
+                <p>Quiche Lorraine</p>
+                <a href="https://static.itdg.com.br/images/1200-675/0cd951a2f8cf36784b06eaf9540ce1b2/322251-original.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://www.minhareceita.com.br/app/uploads/2021/06/croque650.jpg" alt="Croque Monsieur">
+                <p>Croque Monsieur</p>
+                <a href="https://www.minhareceita.com.br/app/uploads/2021/06/croque650.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://www.thespruceeats.com/thmb/TYj4CMcq_KpmoYsvsAinbECJdeU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crepes-suzette-recipe-1374973-hero-01-9346671bf01e4c33bf1d79216b9b08c4.jpg" alt="Crêpes Suzette">
+                <p>Crêpes Suzette</p>
+                <a href="https://www.thespruceeats.com/thmb/TYj4CMcq_KpmoYsvsAinbECJdeU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crepes-suzette-recipe-1374973-hero-01-9346671bf01e4c33bf1d79216b9b08c4.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+
+        <div class="dish-row">
+            <div class="dish">
+                <img src="https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/red-meats-&-red-meat-dishes/boeuf-bourguignon/main-header.jpg" alt="Boeuf Bourguignon">
+                <p>Boeuf Bourguignon</p>
+                <a href="https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/red-meats-&-red-meat-dishes/boeuf-bourguignon/main-header.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://cdn.tasteatlas.com/images/recipes/edcf022021ae486cb7c6978f65ead60a.jpg" alt="Soupe à l'oignon">
+                <p>Soupe à l'oignon</p>
+                <a href="https://cdn.tasteatlas.com/images/recipes/edcf022021ae486cb7c6978f65ead60a.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+            <div class="dish">
+                <img src="https://www.foodandwine.com/thmb/LlnnhX5MveKwpXxCMbT5CSvl1PY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Tarte-Tatin-FT-RECIPE0923-5fbf820c33ea4c12b23ff00c78f63471.jpg" alt="Tarte Tatin">
+                <p>Tarte Tatin</p>
+                <a href="https://www.foodandwine.com/thmb/LlnnhX5MveKwpXxCMbT5CSvl1PY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Tarte-Tatin-FT-RECIPE0923-5fbf820c33ea4c12b23ff00c78f63471.jpg" target="_blank" class="view-image">Ver imagem maior</a>
+                <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Culinária Francesa. Todos os direitos reservados.</p>
+      
+    </footer>
+
+    <script>
+        function lerDescricao(botao) {
+            window.speechSynthesis.cancel();
+            const descricaoImagem = botao.parentElement.querySelector('img').alt;
+            const mensagem = new SpeechSynthesisUtterance(descricaoImagem);
+            window.speechSynthesis.speak(mensagem);
+        }
+    </script>
+</body>
+</html>
